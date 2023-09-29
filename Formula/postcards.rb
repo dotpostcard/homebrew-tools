@@ -5,7 +5,7 @@
 class Postcards < Formula
   desc "Tool for creating digital versions of physical postcards"
   homepage "https://dotpostcards.org/cli/postcards"
-  version "0.11.0"
+  version "0.11.1"
   license "MIT"
 
   depends_on "exiv2"
@@ -13,8 +13,8 @@ class Postcards < Formula
   depends_on :macos
 
   on_macos do
-    url "https://github.com/dotpostcard/postcards-go/releases/download/0.11.0/postcards-0.11.0-macOS-universal.zip"
-    sha256 "e4f4d4b9c170b9e46de89ddf4ee20d60004f620bd42902460be84729f1409b31"
+    url "https://github.com/dotpostcard/postcards-go/releases/download/0.11.1/postcards-0.11.1-macOS-universal.zip"
+    sha256 "0bfb4980bb8834d643ae05ab4a3700fa0f54b3beb31ab64643c3091abe080b64"
 
     def install
       bin.install "postcards"
